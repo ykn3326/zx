@@ -1,0 +1,12 @@
+- [x] Update the government role card button link in templates/Home.html from "government.html" to {% url 'government_portal' %}
+- [x] Update the navigation bar link for "Government Portal" in templates/Home.html from {% url 'home' %} to {% url 'government_portal' %}
+- [ ] Add HealthCamp model to government/models.py
+- [ ] Add AlertForm and HealthCampForm to government/forms.py
+- [ ] Add send_alert, schedule_camp, generate_report, view_analytics views to government/views.py
+- [ ] Update government/urls.py with new URL patterns
+- [ ] Create templates/government/send_alert.html
+- [ ] Create templates/government/schedule_camp.html
+- [ ] Create templates/government/generate_report.html
+- [ ] Create templates/government/analytics.html
+- [ ] Update templates/government.html to link quick action buttons to new views
+- [ ] Enhance view_analytics with additional data visualizations
